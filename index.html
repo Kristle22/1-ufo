@@ -5,16 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFO</title>
-</head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            height: 60vh;
+            margin-top: 20vh;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .txt-container, .img-container {
+            flex: 50%;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        h6 {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 5rem;
+            color: hsla(209, 98%, 52%, 0.815);
+        }
+        p {
+            font-size: 2.5rem;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-transform: uppercase;
+            color: #777;
+            font-weight: bold;
+        }
+        .link-container {
+            border: 0.1px solid hsla(209, 98%, 52%, 0.815);
+            border-radius: 50rem;
+            margin: 10px 0;
+            padding: 8px 30px;
+            width: fit-content;
+        }
+        a {
+            text-decoration: none; 
+            color: hsla(209, 98%, 52%, 0.815);
+        }
+    </style>
 <body>
-  <main style="background-color: pink; width: 60%; margin-left: 20%; margin-top: 20%;">
-    <div>
-        <h1>404</h1>
-        <p>Page not found</p>
-        <a href="#">Go to home</a>
+  <main style="width: 60%; margin-left: 20%; margin: auto;">
+    <div class="container">
+        <div class="txt-container">
+            <h6>404</h6>
+            <p>Page no found</p>
+            <div class="link-container">
+                <a href="#">Go to home</a>
+            </div>
     </div>
-    <img src="./ufo.png" alt="cia turetu buti nuotrauka">
-      
-  </main>  
+    <div class="img-container">
+        <img src="./ufo.jpg" alt="ufo foto">
+    </div>
+</div>
+</main>  
 </body>
 </html>
