@@ -1,3 +1,5 @@
+![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+
 # UFO
 
 _35 group website project_
@@ -10,9 +12,10 @@ Design: [UFO](https://dribbble.com/shots/2815937/attachments/2815937-404-page?mo
 
 ## Project features
 
--   Github pages
+-   Github pages 
 -   HTML
--   CSS
+-   CSS (flex-box)
+-   favicon
 
 ## Authors
 
