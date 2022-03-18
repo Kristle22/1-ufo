@@ -6,7 +6,7 @@ _35 group website project_
 
 This is my first project done by 404 page design from web.
 
-Site published at: https://Kristle22.github.io/1-ufo
+Site published at: https://Kristle22.github.io/UFO-project
 
 Design: [UFO](https://dribbble.com/shots/2815937/attachments/2815937-404-page?mode=media)
 
