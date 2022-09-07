@@ -58,3 +58,16 @@ a {
     justify-content: center;
   }
 }
+@media screen and (max-width: 900px) {
+  .txt-container,
+  .img-container {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .txt-container,
+  .img-container {
+    width: 60%;
+  }
+}
